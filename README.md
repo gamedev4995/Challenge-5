@@ -14,6 +14,13 @@ For this challenge, we implemented action functions for our robot to move based 
 | Fast Horizontal Movement |                                        | 
 | Fast Vertical movement   |                                        |
 
+We first need to install the input system into our unity to get the player's inputs.
+
+Go to menu at the top and click Window > Package Manager > Unity Registry > Search for Input System > Install. Once this is installed, we can now begin with oour project!
+
+<img width="799" alt="Screenshot 2024-10-13 at 4 58 12 PM" src="https://github.com/user-attachments/assets/7d24f3cc-af69-44ae-ae43-4ca3d05b8789">
+
+
 ## Rigid Body
 
 We first start off by adding a Rigidbody component to our character. The Rigidbody will allow physic properties to our character like gravity, collisions, and other physical interactions.
@@ -53,17 +60,24 @@ ___Note___: sure to add the library InputSystem for your player's input!
 
   ### Horizontal & Vertical Movement 
 
+In the player input actions, we made sure to have our select keys (WASD or arrows) for each movement properly adjusted.
+
+<img width="432" alt="Screenshot 2024-10-13 at 5 05 29 PM" src="https://github.com/user-attachments/assets/99083e36-3480-43ea-aed2-8267e836ff3c">
+
+
 For our player's movement around the map, we created two variables: speed and movement value.
 
 <img width="512" alt="Screenshot 2024-10-13 at 3 27 52 PM" src="https://github.com/user-attachments/assets/2c74772d-116f-4dc8-befa-b841bc0d9512">
 
 
-We then added our function
+We then added our function OnMove to detect the player's movement if they're pressing any of the selected keys to move horizontally or vertically.
 
 <img width="468" alt="Screenshot 2024-10-13 at 3 33 10 PM" src="https://github.com/user-attachments/assets/7181efc9-4545-47fc-8533-6b8423b720f3">
 
+#### Result:
 
-[gif]
+![ezgif com-crop](https://github.com/user-attachments/assets/d9cc9c3c-6f78-49de-b2a6-3f65643dbc38)
+
   
   ### Shoot
   
@@ -119,7 +133,7 @@ Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their res
 
 <img width="350" alt="Screenshot 2024-10-04 161206" src="https://github.com/user-attachments/assets/09a3b2d7-8a1d-45f6-ba20-fd0acf25a3e8">
 
-Result:
+#### Result:
 
 ![OnFireVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f340f864-159e-43c1-99d6-667010abeeff)
 
@@ -143,7 +157,7 @@ Lastly, we added the following OnJump function, based on the Jump action we adde
 
 <img width="600" alt="Screenshot 2024-10-12 221303" src="https://github.com/user-attachments/assets/1f0b8f94-8c33-4c0d-81e7-46efc73835f4">
 
-Result:
+#### Result:
 
 ![OnJumpVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/116087e7-6317-419d-8073-17d4ae8111d2)
 
@@ -160,15 +174,19 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 
 <img width="650" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
 
-Result:
+#### Result:
 
 ![OnLookVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ba801ab6-6eac-47af-9dcd-4e1e8cc0a5bf)
 
-  ### Fast Horizontal Movement 
-  
-  ### Fast Vertical Movement
+  ### Fast Horizontal & Vertical Movement
 
-## Result
+
+  #### Result:
+  
+[gif]
+
+
+## Final Result
 
 [gif]
 
