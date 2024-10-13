@@ -76,7 +76,7 @@ We added the following variables:
 
 Continuing, we added the following OnFire function, based on the Fire action already established by Unity, that creates an instance/copy of the bullet prefab and positions it where the shooting point object is located once the left mouse button is pressed.
 
-<img width="600" alt="Screenshot 2024-10-12 213631" src="https://github.com/user-attachments/assets/278a7512-6149-45f2-ae55-c195d39de72b">
+<img width="700" alt="Screenshot 2024-10-12 213631" src="https://github.com/user-attachments/assets/278a7512-6149-45f2-ae55-c195d39de72b">
 
 Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their respective variables.
 
