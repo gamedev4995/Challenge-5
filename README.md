@@ -84,7 +84,7 @@ Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their res
 
 Result:
 
-https://github.com/user-attachments/assets/2015d834-4f5b-4944-95f6-d49f33f21263
+![OnFireVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f340f864-159e-43c1-99d6-667010abeeff)
 
   ### Jump 
 In the player input actions, we added a new action by pressing on the '+' next to "Actions" to which we named "Jump".
@@ -99,13 +99,15 @@ Back in our PlayerMove script, we added the following variable:
 
 <img width="600" alt="Screenshot 2024-10-12 220509" src="https://github.com/user-attachments/assets/9978e12f-f7a7-469f-b31b-762737fecdb4">
 
+_Note:_ Value can be changed for preference
+
 Lastly, we added the following OnJump function, based on the Jump action we added, to allow the player to jump:
 
 <img width="600" alt="Screenshot 2024-10-12 221303" src="https://github.com/user-attachments/assets/1f0b8f94-8c33-4c0d-81e7-46efc73835f4">
 
 Result:
 
-[gif]
+![OnJumpVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/116087e7-6317-419d-8073-17d4ae8111d2)
 
   ### Look
 For the player to look around, we started off by adding the following variables:
@@ -122,7 +124,7 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 
 Result:
 
-[gif]
+![OnLookVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ba801ab6-6eac-47af-9dcd-4e1e8cc0a5bf)
 
   ### Fast Horizontal Movement 
   
