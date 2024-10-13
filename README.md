@@ -76,7 +76,7 @@ We added the following variables:
 
 Continuing, we added the following OnFire function, based on the Fire action already established by Unity, that creates an instance/copy of the bullet prefab and positions it where the shooting point object is located once the left mouse button is pressed.
 
-<img width="450" alt="Screenshot 2024-10-12 213631" src="https://github.com/user-attachments/assets/278a7512-6149-45f2-ae55-c195d39de72b">
+<img width="600" alt="Screenshot 2024-10-12 213631" src="https://github.com/user-attachments/assets/278a7512-6149-45f2-ae55-c195d39de72b">
 
 Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their respective variables.
 
@@ -106,11 +106,11 @@ For the player to look around, we started off by adding the following variables:
 
 Then, we added the following OnLook function, based on the Look action already established by Unity:
 
-<img width="600" alt="Screenshot 2024-10-12 221608" src="https://github.com/user-attachments/assets/9f5203a6-2ef0-4cc5-acf9-601d391218d7">
+<img width="550" alt="Screenshot 2024-10-12 221608" src="https://github.com/user-attachments/assets/9f5203a6-2ef0-4cc5-acf9-601d391218d7">
 
 Lastly, with the lookValue, we can apply the rotation in the Update() with the following code:
 
-<img width="600" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
+<img width="650" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
 
   ### Fast Horizontal Movement 
   
