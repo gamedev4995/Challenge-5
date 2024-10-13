@@ -16,20 +16,40 @@ For this challenge, we implemented action functions for our robot to move based 
 
 ## Rigid Body
 
+We first start off by adding a Rigidbody component to our character. The Rigidbody will allow physic properties to our character like gravity, collisions, and other physical interactions.
+
+<img width="292" alt="Screenshot 2024-10-13 at 3 04 00 PM" src="https://github.com/user-attachments/assets/957304a5-aece-46ec-8364-926c5723a3c1">
+
+
 ## Capsule Collider
+
+Next, we add a capsule collider to grasp the shape of our character. We adjusted the y-coordinate based on our character height and radius based on width.
+
+<img width="293" alt="Screenshot 2024-10-13 at 3 08 23 PM" src="https://github.com/user-attachments/assets/a323a70f-b78b-44b9-844e-07bf9cac9b5d">
+
 
 ## Player Input 
 
+Afterwards, to take in our player's input, we added the component 'Player Input'. We then hit Create Action > named it 'Movement' > Save.
+
+<img width="293" alt="Screenshot 2024-10-13 at 3 13 05 PM" src="https://github.com/user-attachments/assets/da206ca3-884f-439f-a390-0cd11c3c6ac9">
+
+
 ## Terrain
-aqui no va nada wow, solo lo añadi para point out que hicimos uno para que el robot tenga somewhere to land 
+
+We also added a Terrain for our character to roam freely and have somewhere to land when jumping.
+
+<img width="545" alt="Screenshot 2024-10-13 at 3 16 25 PM" src="https://github.com/user-attachments/assets/c2c07b54-5d13-46a2-bf8c-90790c6b7184">
+
 
 ## Script
 
-  ### Horizontal Movement 
-  
-  ### Vertical Movement 
+For our player movement, we first added a new script where we would write the code. Clicking on the character, to the left where the 'Inspector' window appears, scroll all the way down and click Add Component > New Script, we named it 'PlayerMove'. Afterwards, we opened the new script and began coding our actions.
+
+  ### Horizontal & Vertical Movement 
   
   ### Shoot
+  
 Before diving into the code for shooting, it's important to do the following steps beforehand:
 1. Create a bullet prefab
 
@@ -87,6 +107,7 @@ Result:
 ![OnFireVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f340f864-159e-43c1-99d6-667010abeeff)
 
   ### Jump 
+  
 In the player input actions, we added a new action by pressing on the '+' next to "Actions" to which we named "Jump".
 
 <img width="400" alt="Screenshot 2024-10-12 214242" src="https://github.com/user-attachments/assets/1d55efc5-1711-4b21-8f84-b02d36c7a692">
