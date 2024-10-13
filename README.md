@@ -29,7 +29,7 @@ aqui no va nada wow, solo lo añadi para point out que hicimos uno para que el r
   
   ### Vertical Movement 
   
-  ### Fire
+  ### Shoot
 Before diving into the code for shooting, it's important to do the following steps beforehand:
 1. Create a bullet prefab
 
