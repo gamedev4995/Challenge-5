@@ -8,7 +8,7 @@ For this challenge, we implemented action functions for our robot to move based 
 |--------------------------|----------------------------------------|
 | Horizontal Movement      | A and D keys, Left and Right arrow     | 
 | Vertical movement        | W and S keys, Up and Down arrow        |
-| Fire                     | Left Mouse Button, Left Touchpad Button|
+| Shoot                    | Left Mouse Button, Left Touchpad Button|
 | Jump                     | Spacebar                               | 
 | Look                     | Mouse Delta                            |
 | Fast Horizontal Movement |                                        | 
