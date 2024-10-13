@@ -4,15 +4,15 @@ For this challenge, we implemented action functions for our robot to move based 
 ---
 
 ### Player Input Guide
-| Actions                  | Mappings                             |
-|--------------------------|--------------------------------------|
-| Horizontal Movement      | A and D keys, Left and Right arrow   | 
-| Vertical movement        | W and S keys, Up and Down arrow      |
-| Shoot                    |                                      |
-| Jump                     | Spacebar                             | 
-| Look                     |                                      |
-| Fast Horizontal Movement |                                      | 
-| Fast Vertical movement   |                                      |
+| Actions                  | Mappings                               |
+|--------------------------|----------------------------------------|
+| Horizontal Movement      | A and D keys, Left and Right arrow     | 
+| Vertical movement        | W and S keys, Up and Down arrow        |
+| Shoot                    | Left Mouse Button, Left Touchpad Button|
+| Jump                     | Spacebar                               | 
+| Look                     | Mouse Delta                            |
+| Fast Horizontal Movement |                                        | 
+| Fast Vertical movement   |                                        |
 
 ## Rigid Body
 
