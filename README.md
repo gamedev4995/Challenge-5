@@ -46,7 +46,24 @@ We also added a Terrain for our character to roam freely and have somewhere to l
 
 For our player movement, we first added a new script where we would write the code. Clicking on the character, to the left where the 'Inspector' window appears, scroll all the way down and click Add Component > New Script, we named it 'PlayerMove'. Afterwards, we opened the new script and began coding our actions.
 
+___Note___: sure to add the library InputSystem for your player's input!
+
+<img width="400" alt="Screenshot 2024-10-13 at 3 26 39 PM" src="https://github.com/user-attachments/assets/1fd39414-92a2-4618-946f-246258be9f6a">
+
+
   ### Horizontal & Vertical Movement 
+
+For our player's movement around the map, we created two variables: speed and movement value.
+
+<img width="512" alt="Screenshot 2024-10-13 at 3 27 52 PM" src="https://github.com/user-attachments/assets/2c74772d-116f-4dc8-befa-b841bc0d9512">
+
+
+We then added our function
+
+<img width="468" alt="Screenshot 2024-10-13 at 3 33 10 PM" src="https://github.com/user-attachments/assets/7181efc9-4545-47fc-8533-6b8423b720f3">
+
+
+[gif]
   
   ### Shoot
   
