@@ -114,7 +114,11 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 
   ### Fast Horizontal Movement 
   
-  ### Fast Vertical Movement 
+  ### Fast Vertical Movement
+
+## Result
+
+[gif]
 
 
 
