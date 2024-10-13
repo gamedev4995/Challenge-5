@@ -82,6 +82,10 @@ Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their res
 
 <img width="350" alt="Screenshot 2024-10-04 161206" src="https://github.com/user-attachments/assets/09a3b2d7-8a1d-45f6-ba20-fd0acf25a3e8">
 
+Result:
+
+[gif]
+
   ### Jump 
 In the player input actions, we added a new action by pressing on the '+' next to "Actions" to which we named "Jump".
 
@@ -99,6 +103,10 @@ Lastly, we added the following OnJump function, based on the Jump action we adde
 
 <img width="600" alt="Screenshot 2024-10-12 221303" src="https://github.com/user-attachments/assets/1f0b8f94-8c33-4c0d-81e7-46efc73835f4">
 
+Result:
+
+[gif]
+
   ### Look
 For the player to look around, we started off by adding the following variables:
 
@@ -111,6 +119,10 @@ Then, we added the following OnLook function, based on the Look action already e
 Lastly, with the lookValue, we can apply the rotation in the Update() with the following code:
 
 <img width="650" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
+
+Result:
+
+[gif]
 
   ### Fast Horizontal Movement 
   
