@@ -58,7 +58,8 @@ ___Note___: sure to add the library InputSystem for your player's input!
 <img width="400" alt="Screenshot 2024-10-13 at 3 26 39 PM" src="https://github.com/user-attachments/assets/1fd39414-92a2-4618-946f-246258be9f6a">
 
 
-  ### Horizontal & Vertical Movement 
+
+  ### > Horizontal & Vertical Movement 
 
 In the player input actions, we made sure to have our select keys (WASD or arrows) for each movement properly adjusted.
 
@@ -78,8 +79,9 @@ We then added our function OnMove to detect the player's movement if they're pre
 
 ![ezgif com-crop](https://github.com/user-attachments/assets/d9cc9c3c-6f78-49de-b2a6-3f65643dbc38)
 
+---
   
-  ### Shoot
+  ### > Shoot
   
 Before diving into the code for shooting, it's important to do the following steps beforehand:
 1. Create a bullet prefab
@@ -137,7 +139,9 @@ Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their res
 
 ![OnFireVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f340f864-159e-43c1-99d6-667010abeeff)
 
-  ### Jump 
+---
+
+  ### > Jump 
   
 In the player input actions, we added a new action by pressing on the '+' next to "Actions" to which we named "Jump".
 
@@ -161,7 +165,9 @@ Lastly, we added the following OnJump function, based on the Jump action we adde
 
 ![OnJumpVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/116087e7-6317-419d-8073-17d4ae8111d2)
 
-  ### Look
+---
+
+  ### > Look
 For the player to look around, we started off by adding the following variables:
 
 <img width="600" alt="Screenshot 2024-10-12 220221" src="https://github.com/user-attachments/assets/652ef5ad-d44e-4241-a473-13aae004e5eb">
@@ -178,13 +184,16 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 
 ![OnLookVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ba801ab6-6eac-47af-9dcd-4e1e8cc0a5bf)
 
-  ### Fast Horizontal & Vertical Movement
+---
+
+  ### > Fast Horizontal & Vertical Movement
 
 
   #### Result:
   
 [gif]
 
+---
 
 ## Final Result
 
