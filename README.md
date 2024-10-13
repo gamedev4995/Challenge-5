@@ -89,28 +89,28 @@ In the player input actions, we added a new action by pressing on the '+' next t
 
 Then, in the binding properties, next to "Path" we assigned the spacebar of the keyboard. This can be done by typing "spacebar" in the search bar or by pressing "listen" button and tapping the spacebar.
 
-<img width="400" alt="Screenshot 2024-10-12 214500" src="https://github.com/user-attachments/assets/516e10de-fb6d-4917-b6b0-9f3d285c7dd8">
+<img width="550" alt="Screenshot 2024-10-12 214500" src="https://github.com/user-attachments/assets/516e10de-fb6d-4917-b6b0-9f3d285c7dd8">
 
 Back in our PlayerMove script, we added the following variable:
 
-<img width="500" alt="Screenshot 2024-10-12 220509" src="https://github.com/user-attachments/assets/9978e12f-f7a7-469f-b31b-762737fecdb4">
+<img width="600" alt="Screenshot 2024-10-12 220509" src="https://github.com/user-attachments/assets/9978e12f-f7a7-469f-b31b-762737fecdb4">
 
 Lastly, we added the following OnJump function, based on the Jump action we added, to allow the player to jump:
 
-<img width="500" alt="Screenshot 2024-10-12 221303" src="https://github.com/user-attachments/assets/1f0b8f94-8c33-4c0d-81e7-46efc73835f4">
+<img width="600" alt="Screenshot 2024-10-12 221303" src="https://github.com/user-attachments/assets/1f0b8f94-8c33-4c0d-81e7-46efc73835f4">
 
   ### Look
 For the player to look around, we started off by adding the following variables:
 
-<img width="500" alt="Screenshot 2024-10-12 220221" src="https://github.com/user-attachments/assets/652ef5ad-d44e-4241-a473-13aae004e5eb">
+<img width="600" alt="Screenshot 2024-10-12 220221" src="https://github.com/user-attachments/assets/652ef5ad-d44e-4241-a473-13aae004e5eb">
 
 Then, we added the following OnLook function, based on the Look action already established by Unity:
 
-<img width="500" alt="Screenshot 2024-10-12 221608" src="https://github.com/user-attachments/assets/9f5203a6-2ef0-4cc5-acf9-601d391218d7">
+<img width="600" alt="Screenshot 2024-10-12 221608" src="https://github.com/user-attachments/assets/9f5203a6-2ef0-4cc5-acf9-601d391218d7">
 
 Lastly, with the lookValue, we can apply the rotation in the Update() with the following code:
 
-<img width="500" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
+<img width="600" alt="Screenshot 2024-10-12 221826" src="https://github.com/user-attachments/assets/f49f9ebc-0049-49ee-9d66-1d0495fb859b">
 
   ### Fast Horizontal Movement 
   
