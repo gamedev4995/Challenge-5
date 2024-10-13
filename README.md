@@ -84,7 +84,7 @@ Lastly, in Unity, drag the bullet prefab and the shootPoint empty onto their res
 
 Result:
 
-[gif]
+https://github.com/user-attachments/assets/2015d834-4f5b-4944-95f6-d49f33f21263
 
   ### Jump 
 In the player input actions, we added a new action by pressing on the '+' next to "Actions" to which we named "Jump".
