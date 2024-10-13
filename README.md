@@ -8,7 +8,7 @@ For this challenge, we implemented action functions for our robot to move based 
 |--------------------------|----------------------------------------|
 | Horizontal Movement      | A and D keys, Left and Right arrow     | 
 | Vertical movement        | W and S keys, Up and Down arrow        |
-| Shoot                    | Left Mouse Button, Left Touchpad Button|
+| Fire                     | Left Mouse Button, Left Touchpad Button|
 | Jump                     | Spacebar                               | 
 | Look                     | Mouse Delta                            |
 | Fast Horizontal Movement |                                        | 
@@ -29,7 +29,7 @@ aqui no va nada wow, solo lo añadi para point out que hicimos uno para que el r
   
   ### Vertical Movement 
   
-  ### Shoot
+  ### Fire
 Before diving into the code for shooting, it's important to do the following steps beforehand:
 1. Create a bullet prefab
 
