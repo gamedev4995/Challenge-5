@@ -11,8 +11,8 @@ For this challenge, we implemented action functions for our robot to move based 
 | Shoot                    | Left Mouse Button, Left Touchpad Button|
 | Jump                     | Spacebar                               | 
 | Look                     | Mouse Delta                            |
-| Fast Horizontal Movement |                                        | 
-| Fast Vertical movement   |                                        |
+| Fast Horizontal Movement | Left and Right Shift                   | 
+| Fast Vertical movement   | Left and Right Shift                   |
 
 We first need to install the input system into our unity to get the player's inputs.
 
