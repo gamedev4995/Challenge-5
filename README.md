@@ -51,9 +51,9 @@ We also added a Terrain for our character to roam freely and have somewhere to l
 
 ## Script
 
-For our player movement, we first added a new script where we would write the code. Clicking on the character, to the left where the 'Inspector' window appears, scroll all the way down and click Add Component > New Script, we named it 'PlayerMove'. Afterwards, we opened the new script and began coding our actions.
+For our player movement, we first added a new script where we would write the code. Clicking on the character, to the left where the 'Inspector' window appears, scroll all the way down and click Add Component > New Script, we named it "PlayerMove". Afterwards, we opened the new script and began coding our actions.
 
-___Note___: sure to add the library InputSystem for your player's input!
+___Note___: Be sure to add the library InputSystem for your player's input!
 
 <img width="400" alt="Screenshot 2024-10-13 at 3 26 39 PM" src="https://github.com/user-attachments/assets/1fd39414-92a2-4618-946f-246258be9f6a">
 
@@ -65,11 +65,11 @@ In the player input actions, we made sure to have our select keys (WASD or arrow
 
 <img width="432" alt="Screenshot 2024-10-13 at 5 05 29 PM" src="https://github.com/user-attachments/assets/99083e36-3480-43ea-aed2-8267e836ff3c">
 
-
-For our player's movement around the map, we created two variables: speed and movement value.
+For our player's movement around the map, we created two variables: 'speed' and 'movementValue'.
 
 <img width="512" alt="Screenshot 2024-10-13 at 3 27 52 PM" src="https://github.com/user-attachments/assets/2c74772d-116f-4dc8-befa-b841bc0d9512">
 
+___Note:___ In Unity, be sure to add a desired value for speed.
 
 We then added our function OnMove to detect the player's movement if they're pressing any of the selected keys to move horizontally or vertically.
 
@@ -94,7 +94,7 @@ Then we created a new material by right clicking > Create > Material in the asse
 
 <img width="385" alt="Screenshot 2024-10-04 133959" src="https://github.com/user-attachments/assets/0f89feb3-595c-4d58-b969-8d4ed8ec6944">
 
-In the inspector tab of the material, within Surface Inputs, we changed the Base Map to our choice of color and added an emission for a glowing effect. 
+In the inspector tab of the material, within 'Surface Inputs', we changed the 'Base Map' to our choice of color and added an emission for a glowing effect. 
 
 <img width="300" alt="Screenshot 2024-10-04 134147" src="https://github.com/user-attachments/assets/f2be6b3f-7f4f-41d3-a2ce-977a74201218">
 
@@ -111,9 +111,8 @@ For this script, we added the public variable 'speed' and the following code for
 
 <img width="500" alt="Screenshot 2024-10-04 160802" src="https://github.com/user-attachments/assets/0e0f3c9e-8f1a-4f60-95b8-3f25db26401b">
 
-Lastly, in Unity, be sure to change the value of the speed.
+___Note:___ In Unity, be sure to add a desired value for speed.
 
-<img width="350" alt="Screenshot 2024-10-04 161136" src="https://github.com/user-attachments/assets/eb0a6659-a6c3-46ef-9e1e-607e77ed9873">
 
 3. Create empty object
 
@@ -123,7 +122,7 @@ For the character to shoot the bullets, we first had to create an empty object (
 
 Back in with the movement script:
 
-We added the following variables:
+We added two public variables, one called 'prefab' and the other 'shootPoint'.
 
 <img width="286" alt="Screenshot 2024-10-04 170922" src="https://github.com/user-attachments/assets/d7e90ed0-e2ed-4cc6-8f48-e34ed01035c8">
 
@@ -151,11 +150,11 @@ Then, in the binding properties, next to "Path" we assigned the spacebar of the 
 
 <img width="550" alt="Screenshot 2024-10-12 214500" src="https://github.com/user-attachments/assets/516e10de-fb6d-4917-b6b0-9f3d285c7dd8">
 
-Back in our PlayerMove script, we added the following variable:
+Back in our movement script "PlayerMove", we added a new public variable called 'jumpForce'.
 
 <img width="600" alt="Screenshot 2024-10-12 220509" src="https://github.com/user-attachments/assets/9978e12f-f7a7-469f-b31b-762737fecdb4">
 
-_Note:_ Value can be changed for preference
+___Note:___ Value can be changed for preference.
 
 Lastly, we added the following OnJump function, based on the Jump action we added, to allow the player to jump:
 
@@ -168,9 +167,11 @@ Lastly, we added the following OnJump function, based on the Jump action we adde
 ---
 
   ### > Look
-For the player to look around, we started off by adding the following variables:
+For the player to look around, we started off by adding two variables, once public called 'rotationSpeed' and a private one called 'lookValue'.
 
 <img width="600" alt="Screenshot 2024-10-12 220221" src="https://github.com/user-attachments/assets/652ef5ad-d44e-4241-a473-13aae004e5eb">
+
+___Note:___ In Unity, be sure to add a desired value for rotation speed.
 
 Then, we added the following OnLook function, based on the Look action already established by Unity:
 
@@ -187,12 +188,12 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 ---
 
   ### > Fast Horizontal & Vertical Movement
-  To make our character move fast, as in sprint, first we have to create a new public variable called sprintSpeed, which we can set to 0, and a private bool isSprinting, which needs to be initialized to false.
+  To make our character move fast, as in sprint, first we have to create a new public variable called 'sprintSpeed', which we can set to 0, and a private bool 'isSprinting', which needs to be initialized to 'false'.
   
 <img width="600" alt="Screenshot 2024-10-13 at 8 28 13 PM" src="https://github.com/user-attachments/assets/0d2b84a7-ec97-476d-9fe8-6ebbed6b1186">
 
   
-  Next we need to adjust the OnMove function. Inside the function add an if/else statement that checks the boolean isSprinting. If true the movementValue will be multiplied by the sprintSpeed. Otherwise the movementValue is multiplied by the regular player speed. Finally set isSprinting to false again. 
+  Next we need to adjust the OnMove function. Inside the function add an if/else statement that checks the boolean 'isSprinting'. If 'true' the 'movementValue' will be multiplied by the sprintSpeed. Otherwise the 'movementValue' is multiplied by the regular player speed. Finally set isSprinting to false again. 
   
   <img width="500" alt="Screenshot 2024-10-13 at 8 34 18 PM" src="https://github.com/user-attachments/assets/ca056b1b-6e32-4459-9d1d-52dca1789f81">
 
