@@ -189,7 +189,7 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
   ### > Fast Horizontal & Vertical Movement
   To make our character move fast, as in sprint, first we have to create a new public variable called sprintSpeed, which we can set to 0, and a private bool isSprinting, which needs to be initialized to false.
   
-<img width="500" alt="Screenshot 2024-10-13 at 8 28 13 PM" src="https://github.com/user-attachments/assets/0d2b84a7-ec97-476d-9fe8-6ebbed6b1186">
+<img width="600" alt="Screenshot 2024-10-13 at 8 28 13 PM" src="https://github.com/user-attachments/assets/0d2b84a7-ec97-476d-9fe8-6ebbed6b1186">
 
   
   Next we need to adjust the OnMove function. Inside the function add an if/else statement that checks the boolean isSprinting. If true the movementValue will be multiplied by the sprintSpeed. Otherwise the movementValue is multiplied by the regular player speed. Finally set isSprinting to false again. 
