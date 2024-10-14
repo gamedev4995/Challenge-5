@@ -198,9 +198,8 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
 
 
   #### Result:
-  
-https://github.com/user-attachments/assets/20c04bf5-e9ca-4861-839c-a5de8ce51c29
 
+![OnRunVid](https://github.com/user-attachments/assets/e97d6601-ddfd-4886-aa17-4d11f77d616d)
 
 
 ---
