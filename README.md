@@ -61,7 +61,7 @@ ___Note___: Be sure to add the library InputSystem for your player's input!
 
   ### > Horizontal & Vertical Movement 
 
-In the player input actions, we made sure to have our select keys (WASD or arrows) for each movement properly adjusted.
+In our Movement Input Actions (player input actions), we made sure to have our select keys (WASD or arrows) for each movement properly adjusted.
 
 <img width="432" alt="Screenshot 2024-10-13 at 5 05 29 PM" src="https://github.com/user-attachments/assets/99083e36-3480-43ea-aed2-8267e836ff3c">
 
