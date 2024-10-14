@@ -71,6 +71,8 @@ For our player's movement around the map, we created two variables: 'speed' and 
 
 ___Note:___ In Unity, be sure to add a desired value for speed.
 
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/f88cce76-e34d-41eb-a29f-8e1a6b889a07">
+
 We then added our function OnMove to detect the player's movement if they're pressing any of the selected keys to move horizontally or vertically.
 
 <img width="468" alt="Screenshot 2024-10-13 at 3 33 10 PM" src="https://github.com/user-attachments/assets/7181efc9-4545-47fc-8533-6b8423b720f3">
