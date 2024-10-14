@@ -126,7 +126,7 @@ Back in with the movement script:
 
 We added two public variables, one called 'prefab' and the other 'shootPoint'.
 
-<img width="286" alt="Screenshot 2024-10-04 170922" src="https://github.com/user-attachments/assets/d7e90ed0-e2ed-4cc6-8f48-e34ed01035c8">
+<img width="600" alt="Screenshot 2024-10-13 222847" src="https://github.com/user-attachments/assets/4616655a-5eb5-46b6-ada4-48356d7add1b">
 
 Continuing, we added the following OnFire function, based on the Fire action already established by Unity, that creates an instance/copy of the bullet prefab and positions it where the shooting point object is located once the left mouse button is pressed.
 
