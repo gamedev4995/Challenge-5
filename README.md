@@ -150,7 +150,7 @@ In the player input actions, we added a new action by pressing on the '+' next t
 
 ___Note:___ Player input actions refers to the following asset located in the assets folder:
 
-<img width="300" alt="Screenshot 2024-10-13 221515" src="https://github.com/user-attachments/assets/eb5e2479-a524-43df-b6dc-dec5f2ab8c21">
+<img width="150" alt="Screenshot 2024-10-13 221515" src="https://github.com/user-attachments/assets/eb5e2479-a524-43df-b6dc-dec5f2ab8c21">
 
 Then, in the binding properties, next to "Path" we assigned the spacebar of the keyboard. This can be done by typing "spacebar" in the search bar or by pressing "listen" button and tapping the spacebar.
 
