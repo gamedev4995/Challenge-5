@@ -198,7 +198,7 @@ Lastly, with the lookValue, we can apply the rotation in the Update() with the f
   
 <img width="600" alt="Screenshot 2024-10-13 at 8 28 13 PM" src="https://github.com/user-attachments/assets/0d2b84a7-ec97-476d-9fe8-6ebbed6b1186">
 
-In the Movement(Input action) menu create a new action called "Run." Using the plus sign next to the action select add binding and select the righ and left "shift" button.
+In the Movement(Input actions) menu create a new action called "Run." Using the plus sign next to the new action created select "add binding." In the path field select the right and left shift key.
 
   <img width="570" alt="Screenshot 2024-10-13 at 10 41 14 PM" src="https://github.com/user-attachments/assets/2f04bc9c-84b8-453e-958a-9474c48c4603">
 
