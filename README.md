@@ -18,7 +18,7 @@ We first need to install the input system into our unity to get the player's inp
 
 Go to menu at the top and click Window > Package Manager > Unity Registry > Search for Input System > Install. Once this is installed, we can now begin with oour project!
 
-<img width="799" alt="Screenshot 2024-10-13 at 4 58 12 PM" src="https://github.com/user-attachments/assets/7d24f3cc-af69-44ae-ae43-4ca3d05b8789">
+<img width="600" alt="Screenshot 2024-10-13 at 4 58 12 PM" src="https://github.com/user-attachments/assets/7d24f3cc-af69-44ae-ae43-4ca3d05b8789">
 
 
 ## Rigid Body
